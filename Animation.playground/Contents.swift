@@ -89,6 +89,9 @@ struct ItemView : View {
         return
             imageView
                 .resizable()
+                // Removing this opacity() modifier fixes the bug!
+                // That seems strange to me because it's being passed
+                // a constant value!
                 .opacity(1.0)
                 .frame(width: hidden ? 0 : 100 , height: hidden ? 0 : 100)
     }
