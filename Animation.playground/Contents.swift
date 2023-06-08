@@ -89,7 +89,6 @@ struct ItemView : View {
         return
             imageView
                 .resizable()
-                .opacity(1.0)
                 .frame(width: hidden ? 0 : 100 , height: hidden ? 0 : 100)
     }
 }
