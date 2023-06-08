@@ -41,3 +41,7 @@ macOS 14.0 Beta (23A5257q).
 Removing the .opacity(1.0) modifier on the Image(…) corrects the behavior. This
 is quite strange, since the modifier is being passed a constant value! I'm not
 sure why this causes the animation problems, but it does.
+
+In my actual app where I have this problem, removing every opacity() modifier
+still does not avoid the bug, so the true cause must be a bit more complicated.
+
