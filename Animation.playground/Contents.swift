@@ -60,10 +60,8 @@ struct ContentView: View {
                 heart.toggle()
             }
 
-            Button("Animate") {
-                let scaleAnimation = Animation.easeInOut(duration: 2)
-                
-                withAnimation(scaleAnimation) {
+            Button("Animate") {                
+                withAnimation(.easeInOut(duration: 2)) {
                     hidden.toggle()
                 }
             }
