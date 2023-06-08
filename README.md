@@ -1,6 +1,7 @@
-# SwiftUI Image Animation Bug
+# FB12265182 SwiftUI Image Animation Bug
 
 The Xcode Playground in this repository demonstrates a SwiftUI animation bug.
+The bug has been filed with Apple FB12265182.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/siracusa/SwiftUIImageAnimationBug/main/playground-screenshot.png" width=402 height=422 alt="Playground screenshot">
