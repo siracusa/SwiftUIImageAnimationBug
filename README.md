@@ -37,3 +37,7 @@ Image(nsImage: …) is departing.
 
 3. The animation of the Image(nsImage: …) is different in macOS 13.4 (22F66) and
 macOS 14.0 Beta (23A5257q).
+
+Removing the .opacity(1.0) modifier on the Image(…) corrects the behavior. This
+is quite strange, since the modifier is being passed a constant value! I'm not
+sure why this causes the animation problems, but it does.
