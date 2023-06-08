@@ -85,15 +85,12 @@ struct ItemView : View {
         let imageView = heart ?
             Image(systemName: "heart.fill") :
             Image(nsImage: image)
-        
-        return HStack(alignment: .center) {
-            HStack(alignment: .center, spacing: 0) {
-                imageView
-                    .resizable()
-                    .opacity(1.0)
-                    .frame(width: hidden ? 0 : 100 , height: hidden ? 0 : 100)
-            }
-        }
+
+        return
+            imageView
+                .resizable()
+                .opacity(1.0)
+                .frame(width: hidden ? 0 : 100 , height: hidden ? 0 : 100)
     }
 }
 
