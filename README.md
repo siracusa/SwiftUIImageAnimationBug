@@ -4,7 +4,7 @@ The Xcode Playground in this repository demonstrates a SwiftUI animation bug.
 The bug has been filed with Apple as FB12265182.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/siracusa/SwiftUIImageAnimationBug/main/playground-screenshot.png" width=402 height=422 alt="Playground screenshot">
+<img src="https://raw.githubusercontent.com/siracusa/SwiftUIImageAnimationBug/main/playground-screenshot.png" alt="Playground screenshot">
 </p>
 
 The “Animate” button makes the middle item appear and disappear by applying an
